@@ -1,3 +1,1 @@
 .env filter=git-seal diff=git-seal
-config/secrets.json filter=git-seal diff=git-seal
-*.key filter=git-seal diff=git-seal
