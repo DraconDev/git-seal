@@ -15,3 +15,5 @@ Thumbs.db
 .wxt
 reference/**
 .env.keys
+# Environment files (will be encrypted if needed)
+.env
