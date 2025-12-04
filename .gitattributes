@@ -1,0 +1,10 @@
+# Example .gitattributes file for git-seal
+# Copy this to your project repository
+
+# Protect environment files
+.env filter=git-seal diff=git-seal
+
+# Protect other sensitive files  
+*.key filter=git-seal diff=git-seal
+config/secrets.json filter=git-seal diff=git-seal
+*.pem filter=git-seal diff=git-seal
