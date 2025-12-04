@@ -1,0 +1,17 @@
+
+
+# Auto-committer ignored files
+.vscode
+.idea/**
+.vs/**
+node_modules/**
+.git/**
+dist/**
+build/**
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.wxt
+reference/**
+.env.keys
